@@ -1,0 +1,19 @@
+{% for item in site.data.publications %}
+<div class="p-3 border shadow shadow-sm rounded mb-3 d-flex flex-row">
+    <div class="fs-3 me-4">
+        <i class="fas fa-file-alt text-info w-50"></i>
+
+    </div>
+    <div>
+        <div class="fs-5 text-white">{{item.authors}}. <a href="{{item.url}}" class="text-info"
+                target="_blank">{{item.title}}</a>.
+            <i>{{item.journel}}</i>
+        </div>
+        <div>
+            {% for linkItem in item.links %}
+            <a href="{{linkItem.url}}" target="_blank"><span class="badge bg-info">{{linkItem.title}}</span></a>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+{% endfor %}
