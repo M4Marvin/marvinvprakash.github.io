@@ -1,3 +1,8 @@
-- title: Freelancing in Deep learning projects
-  description: I have been working as a freelance developer and made about Rs. 1 lakh by completing multiple tasks.
-  icon: 'fas fa-code'
+- title: Full Stack Cloud-Based WebApp (September 2022 – October 2022)
+  description: >-
+Solely designed and developed a cloud storage web application with State-of-the-art security measures like Face
+Recognition, Liveness Detection, and Data Encryption using 256-bit AES and RSA.
+Used Flask with Onnxruntime, PyTorch, and MediaPipe models for face authentication.
+Used Jinja2 templating system for Front-End and SQLAlchemy for database creation and management.
+Carried out deployment using Gunicorn and NGINX on a server
+  icon: "fas fa-code"

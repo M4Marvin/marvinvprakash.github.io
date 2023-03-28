@@ -1,7 +1,5 @@
 title: Hello, there!
 description: >-
-  I am currently pursuing my master's in **Computational Biology** from SCIS, JNU. I also spend my free time working on freelance projects in the field of machine learning, deep learning and full stack development.
-
-
-  I have also taught university level students about computer science, which has led to good interpersonal skills.I am passionate about learning new skills and technologies.
+  As an aspiring computational biologist with a passion for research and development, I am eager to contribute my skills and knowledge towards advancing the field of computational biology. With a Bachelor's degree in \textbf{Computer Science} and a Master's degree in \textbf{Computational Biology}, I have gained a strong foundation in both computer science and biology. Additionally, I have extensive experience as a \textbf{freelance developer}, working on machine learning and web development projects. \\
+  Currently, I am engaged in \textbf{coarse-grain molecular dynamics} (MD) simulations, exploring the behaviour of complex biological systems at the molecular level. To solve the problem of coarse-grain simulations of proteins, mRNA, and other biological systems, I am leveraging my experience with machine learning techniques. By developing \textbf{novel computational methods} and algorithms using ML, I aim to gain a deeper understanding of biological systems and their interactions.
 image: "/assets/img/1.jpeg"
