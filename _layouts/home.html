@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<div class="theme-container" x-data="{darkTheme:true}">
+<div class="theme-container" x-data="{darkTheme:false}">
   <!-- Light theme -->
   <div class="bg-white" x-show="!darkTheme">
     {% include navbar.html %}
@@ -69,6 +69,14 @@ layout: default
           </h4>
         </div>
         <div class="col-12 col-lg-8">{% include experience.html %}</div>
+      </div>
+      <div class="row py-5 g-5" id="publications">
+        <div class="col-12 col-lg-4">
+          <h4 class="mb-3 fs-2 text-primary fw-bold text-center text-lg-start">
+            Publications
+          </h4>
+        </div>
+        <div class="col-12 col-lg-8">{% include publications.html %}</div>
       </div>
     </div>
     {% include footer.html %}
@@ -139,6 +147,14 @@ layout: default
           </h4>
         </div>
         <div class="col-12 col-lg-8">{% include dark/experience.html %}</div>
+      </div>
+      <div class="row py-5 g-5" id="publications2">
+        <div class="col-12 col-lg-4">
+          <h4 class="mb-3 fs-2 text-secondary fw-bold text-center text-lg-start">
+            Publications
+          </h4>
+        </div>
+        <div class="col-12 col-lg-8">{% include dark/publications.html %}</div>
       </div>
     </div>
     {% include dark/footer.html %}
